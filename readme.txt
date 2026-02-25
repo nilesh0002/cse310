@@ -42,11 +42,12 @@ constructor of string class:-
 5) char array constructor:- create string with char array value
 
 character set:- it is a collection of character and their corresponding value
-types of character set:-
+types of character set:- 
 1)byte character set:- it is a collection of character and their corresponding byte value (range -128 to 127)
 2)unicode character set:- it is a collection of character and their corresponding unicode value (range 0 to 65535)
 3)printtable characer set:-
 4)string builder class object:- it is a mutable class and it is not thread safe it is faster then buffer
+                                by default size = 16
 5)string buffer class object:- it is a mutable class and it is thread safe have synchronized method
                       it is slower then builder class
 syntax:-
