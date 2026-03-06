@@ -90,6 +90,63 @@ bitwise or- 5|2=7 (5=0101 and 2=0010) (1|0=1, 0|1=1, 1|1=1, 0|0=0)
 bitwise xor- 5^2=7 (5=0101 and 2=0010) (1^0=1, 0^1=1, 1^1=0, 0^0=0)
 bitwise not - ~5=-6 (5=0101) (1's complement=1010) (2's complement=1011) (-6 in binary is 1011)
 
+inheritance in java:- it is a process of acquiring properties and behaviors of parent class by child class
+which propereties inherit:-
+1) instance variable     
+2) instance method
+3) constructor
+
+which access modifier allow to inherit:-
+1) public
+2) protected
+3) default (only within same package)
+
+
+unit 3
+inheritance 
+
+types of inheritance in java:-
+has a relationship:- it is a relationship between two classes where one class contains another class as a member
+is a relationship:- it is a relationship between two classes where one class is a subclass of another class
+
+extend keyword:- it is used to achieve inheritance in java
+
+conposition and aggregation is example of has a relationship
+inheritance is example of is a relationship  
+
+default assess modifier:-allow to access within same package only
+seter function:- it is a method that is used to set the value of instance variable
+geter function:- it is a method that is used to get the value of instance variable
+
+ambiguity:- compiler unable to decide which method to call because of multiple inheritance
+
+polymorphism:- it is a process of using a single entity to represent multiple forms
+function overloading:- creating multiple methods with same name but different parameters in same class
+function overriding:- when function of parent class is redefined in child class with same name and same parameters it is called function overriding
+
+overriding :- when fun redifined in child class with same name and same parameters and it take child class value.
+overloading:- creating multiple methods with same name but different parameters in same class it 
+
+types of polymorphism:-
+
+compile time polymorphism:- it is a process of using a single entity to represent multiple forms at compile time
+method overloading is example of compile time polymorphism
+dynamic 
+runtime polymorphism
+shape class draw() method is example of dynamic runtime polymorphism
+
+object class:- base class of all class in java it is present in (java.lang package)
+all pakage is extend of object class:- means all class is child class of object class
+
+implecitly when class have is a relationship with another class then it is called inheritance and it is achieve by using extend keyword
+
+a.getclass() method:- it is a method that is used to get the class of an object 
+toString() method:- it is a method that is used to get the string representation of an object
+equals() method:- it is a method that is used to compare two objects for equality    
+
+
+
+
 
 
 
