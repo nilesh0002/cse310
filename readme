@@ -1,4 +1,4 @@
-/*
+
 feb 18
 
 constructor:-we can chair in constructor
@@ -104,10 +104,28 @@ which access modifier allow to inherit:-
 
 unit 3
 inheritance 
+:-to achieve code reusability
+:-to show the relationship between classes
+
+level of inheritance:-
+1) single inheritance:- when one class inherit another class it is called single inheritance
+2) multilevel inheritance:- when one class inherit another class and that class inherit another class it is called multilevel inheritance
+3) hierarchical inheritance:- when one class inherit multiple class it is called hierarchical inheritance
+
 
 types of inheritance in java:-
-has a relationship:- it is a relationship between two classes where one class contains another class as a member
-is a relationship:- it is a relationship between two classes where one class is a subclass of another class
+has a relationship:- one class have another class as member variable
+is a relationship:- one class is a type of another class
+eg:-is a relationship:- car(){ 
+                              string name;
+                              int price;
+                         }
+                        audi extends car(){ 
+                              int price;    is a relationship because audi is a car
+                              vehicle extends car(){
+                                  int speed;  has a relationship because vehicle have car as member variable
+                              }
+                         }
 
 extend keyword:- it is used to achieve inheritance in java
 
@@ -146,9 +164,60 @@ equals() method:- it is a method that is used to compare two objects for equalit
 
 
 
+supper keyword:-
+refer to the parent class object
+give access to properties that my object getting from parent class
+calling parent class constructor
+
+super() -> use to pass parameter to parent class constructor 
+
+ques:-how to know which constructoe is call using super() method?
+ans:- it will check for parameter in super()..
+ques:- where we can use super() method?
+ans:- in child class constructor only and it will always at top of constructor body
 
 
+define abstract class:- a class that can not 
+contreate object and it is used to achi
 
 
+unit4 
+nested classs:- that define inside another class ,used to acheive inheritance 
 
-*/
+
+time package provide us:-
+local time , local date, local date time, zoned date time, offset date time, instant, duration, period, date time formatter
+
+factory method:it create a object of class
+
+like now() method of local date class is a factory method - give us current date and time
+we have interface called temporal  interface and all class of time package implement this interface
+and all method of temporal interface --> 
+name method as -: 
+now ()- give us current date and time
+of() method is used to create an object of class by using parameter
+parse() method is used to convert string to date and time
+minuDays() method is used to subtract- (daystosubtract:123) but it will not change value ob object because it is immutable class it.
+with() method is used to change actual value of date and time
+
+these class are immutable class and it is thread safe
+
+plusDays() method is used to add- (daystoadd:123) but it will not change value ob object 
+because it is immutable class it. will return new object with new value then we will get original after 123 days
+minusDays() method is used to subtract- (daystosubtract:123) but it will not change value ob object because it is immutable class it. 
+will return new object with new value then we will get original after 123 days
+
+stream-: it is flow of data it is used to process collection of data
+two type of stream:-
+char stream:- it is used to process character data size of char 
+byte stream:- it is used to process byte data size of byte
+
+char stream class size:- 2 bytes
+byte stream class size:- 1 byte
+system.in-: it is a byte stream class is of input stream.
+system.out-: it is a char stream class  is of print stream class
+
+buffer :- it is a memory location where data is stored temporarily
+imporve read and write performance by reducing number of I/O operation
+
+read from file and write to
