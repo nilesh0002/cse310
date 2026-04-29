@@ -221,3 +221,7 @@ buffer :- it is a memory location where data is stored temporarily
 imporve read and write performance by reducing number of I/O operation
 
 read from file and write to
+
+
+raisde condition:- giving condition to same time to multiple thread and it is used to achieve synchronization
+synchronization:- control the access of multiple thread to shared resource.. 

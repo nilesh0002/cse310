@@ -1,3 +1,5 @@
+//creae a thread by extending 
+
 class myThread extends Thread {
     
     public void run() {
