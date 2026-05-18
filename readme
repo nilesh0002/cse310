@@ -225,3 +225,46 @@ read from file and write to
 
 raisde condition:- giving condition to same time to multiple thread and it is used to achieve synchronization
 synchronization:- control the access of multiple thread to shared resource.. 
+
+array list:- it is a class that is used to store multiple values in a single variable and it is dynamic array
+set :- it is a class that 
+tree set feature:-
+1.) linear data structure
+2.) it is a class that is used to store multiple values in a single variable and it is dynamic array
+3.) doub
+
+auto boxing:- directly convert primitive data type to wrapper class object
+
+ 
+comand line argument :- argument pass to terminal at run time , parameter for it string
+
+programm structure of java:-
+documentation 
+package
+import
+class
+main method
+main in public  why:-so that it can be accessed 
+why static:- so that it can be accessed without creating object of class
+
+string args[]:- it is a parameter of main method and it is used to store command line argument
+jdk:- jave development kit ,contain:- jre, javac, launcher, debugger..
+
+
+primitive data type:- store simple value and it is not object
+reference data type:- store reference of object and it is object
+
+wrapper class:-
+auto boxing and unboxing:
+unsign right shift- 5>>>2=1 trick:- 5/2^2=5/4=1 (2^given number)
+operator precedence:- /* > + - > = > && > ||
+asociativity:- left to right
+enum:- it is a class that is used to define a set of constant values
+initalizer block:-  execute even before object created
+string vlass:- store multiple value in a single variable and it is immutable class
+string in java:- store character data and is an immutable object
+string builder class:- it is a mutable class and it is not thread safe it is faster then buffer
+inheritance:- it is a process of acquiring properties and behaviors of parent class by child class ,used to achieve code reusability and to show the relationship between classes
+polymorphism:- it is a process of using a single entity to represent multiple forms
+method overridding:- child class redefine method of parent class with same name and same parameters
+method overloading:- creating multiple methods with same name but different parameters in same class
